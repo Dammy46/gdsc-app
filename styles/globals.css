@@ -9,27 +9,31 @@
   font-family: "Eudoxus Sans", sans-serif;
   scroll-behavior: smooth;
 }
-
+.overflow-hidden {
+  overflow: hidden;
+}
+.google-gradient {
+  background: linear-gradient(-120deg, #4285f4, #34a853, #fbbc05, #ea4335);
+}
 .gradient-01 {
   background-image: linear-gradient(
     270deg,
-    hsl(295deg 76% 51%) 0%,
-    hsl(284deg 70% 73%) 26%,
-    hsl(257deg 70% 86%) 39%,
-    hsl(202deg 92% 90%) 50%,
-    hsl(215deg 77% 81%) 61%,
-    hsl(221deg 73% 70%) 74%,
-    hsl(220deg 76% 51%) 100%
+    hsl(108deg 76% 51%) 0%,
+    hsl(119deg 70% 73%) 26%,
+    hsl(105deg 70% 86%) 39%,
+    hsl(115, 94%, 54%) 50%,
+    hsl(115, 92%, 65%) 61%,
+    hsl(123, 98%, 50%) 74%,
+    hsl(113, 68%, 55%) 100%
   );
   filter: blur(125px);
 }
-
 .hero-gradient {
   background: linear-gradient(
     97.86deg,
-    #a509ff 0%,
-    #34acc7 53.65%,
-    #a134c7 100%
+    #00ff72 0%,
+    #4487f7 53.65%,
+    #3eda85 100%
   );
 }
 
@@ -40,16 +44,8 @@
   top: 0px;
   right: 0px;
 
-  background: #7aebfb;
+  background: #fbbc05;
   filter: blur(190px);
-}
-
-.glassmorphism {
-  background: rgba(255, 255, 255, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .gradient-03 {
@@ -59,8 +55,8 @@
   left: 20%;
   top: 5%;
 
-  background: rgba(149, 66, 232, 0.35);
-  filter: blur(175px);
+  background: #ea4335;
+  filter: blur(400px);
   transform: rotate(-114.2deg);
 }
 
@@ -71,7 +67,7 @@
   left: 30%;
   top: 10%;
 
-  background: rgba(45, 72, 152, 0.75);
+  background: #4285f4;
   filter: blur(200px);
   transform: rotate(-53.13deg);
 }
@@ -91,7 +87,7 @@
   left: 0px;
   top: 0px;
 
-  background: #8d39a3;
+  background: #fbbc05;
   filter: blur(175px);
 }
 
@@ -102,6 +98,6 @@
   left: 37%;
   bottom: 0;
 
-  background: #65c4fa;
+  background: #4285f4;
   filter: blur(150px);
 }
